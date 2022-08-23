@@ -64,6 +64,7 @@ func (nt *nodeTree) addNode(n *v1.Node) {
 	}
 	klog.V(2).InfoS("Added node in listed group to NodeTree", "node", klog.KObj(n), "zone", zone)
 	nt.numNodes++
+
 }
 
 // removeNode removes a node from the NodeTree.
